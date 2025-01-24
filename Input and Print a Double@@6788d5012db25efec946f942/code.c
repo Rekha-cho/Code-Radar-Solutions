@@ -1,6 +1,5 @@
 #include <stdio.h>
-intm
- main()
+int main()
  {
     double a;
     scanf("%lf", &a);
