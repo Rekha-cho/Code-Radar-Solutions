@@ -3,13 +3,10 @@ int main()
 {
     int a,b;
     if (a>b){
-        printf("True");
-    }
-    if (b>a){
-        printf("True")
+        printf("False");
     }
     else{
-        printf("False");
+        printf("True");
     }
     return 0;
 }
