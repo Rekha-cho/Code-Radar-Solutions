@@ -3,11 +3,11 @@ int main ()
 {
     int a;
     scanf("%d",&a);
-    int count=0;
-    while (a&1==0)
+    int zero=0;
+    while ((a&1)==0)
     {
         a=a>>1;
-        count++;
+        zero++;
     }
     printf("%d",count);
     return 0;
