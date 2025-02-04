@@ -19,9 +19,9 @@ int main()
         printf("%d", a/b);
         else
         printf("error");
-        break;
-        default :
-        printf("error");
+    break;
+    default :
+    printf("error");
     }
-    return 0;
+        return 0;
 }
