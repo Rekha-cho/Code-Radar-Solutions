@@ -6,7 +6,7 @@ int main()
     for (int i=31; i>=0; i--){
         if(a&(1<<i))
         num=(num*10)+1;
-        elae
+        else
         num=(num*10);
     }
     printf("%llu", num);
