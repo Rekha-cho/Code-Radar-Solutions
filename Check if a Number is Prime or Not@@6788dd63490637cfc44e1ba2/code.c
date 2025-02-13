@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
-
 bool isPrime(int num) {
     if (num <= 1) {
         return false;
@@ -12,7 +10,6 @@ bool isPrime(int num) {
     }
     return true;
 }
-
 int main() {
     int a;
     scanf("%d", &a);
