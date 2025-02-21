@@ -1,12 +1,8 @@
 #include <stdio.h>
-
-// Function to perform bubble sort
 void bubbleSort(int array[], int size) {
     for (int step = 0; step < size - 1; ++step) {
-        // Run through the array, swapping elements if needed
         for (int i = 0; i < size - step - 1; ++i) {
             if (array[i] > array[i + 1]) {
-                // Swap the elements
                 int temp = array[i];
                 array[i] = array[i + 1];
                 array[i + 1] = temp;
@@ -15,7 +11,6 @@ void bubbleSort(int array[], int size) {
     }
 }
 
-// Function to print an array
 void printArray(int array[], int size) {
     for (int i = 0; i < size; ++i) {
         printf("%d ", array[i]);
