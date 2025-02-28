@@ -5,14 +5,14 @@ int main() {
     scanf("%d", &n);
     for (i = 1; i <= n; i++) {
         for (j = 1; j <= n; j++) {
-            // Print stars for the border and spaces for the inside
             if (i == 1 || i == n || j == 1 || j == n) {
-                printf("* ");
+                printf("*");
             } else {
-                printf("  ");
+                printf(" ");
             }
         }
         printf("\n");
     }
     return 0;
 }
+
