@@ -12,8 +12,9 @@ int main() {
             printf("%d ", num);
             if (j < i) {
                 num++;
-            } else {
-                num--;
+            }
+            // } else {
+            //     num--;
             }
         }
         printf("\n");
