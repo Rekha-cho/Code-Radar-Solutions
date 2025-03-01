@@ -8,14 +8,13 @@ int main() {
             printf(" ");
         }
         num = 1;
-        for (j = 1; j <= 2 * i - 1; j++) {
+        for (j = 1; j <= 2 * i; j++) {
             printf("%d ", num);
-            if (j < i) {
-                num++;
-            }
-            // } else {
+            // if (j < i) {
+            //     num++;
+            // }
+            //  } else {
             //     num--;
-            }
         }
         printf("\n");
     }
